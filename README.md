@@ -28,11 +28,11 @@ each array size (from requirement 1) a minimum of 10 times. Your test should use
 chrono library’s high_resolution_clock class. The following example of how to do this in
 nanoseconds is found on Stack Overflow. Only the time in the 7 sort functions should be
 measured.
-1. #include <iostream>
+
+1. #include <iostream> 
 2. #include <chrono>
 3. typedef std::chrono::high_resolution_clock Clock;
-4.
-5. int main()
+4. int main()
 6. {
 7. auto t1 = Clock::now();
 8. auto t2 = Clock::now();
